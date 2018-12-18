@@ -1,0 +1,132 @@
+
+
+.allvh { min-height: 100vh; }
+
+.fixed-top { padding-top: 6rem; }
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	background-color: #303030;
+}
+.footer{
+
+	position: fixed;
+	 bottom:0; 
+	left: 0;
+	width: 100%;
+	z-index: 999; 
+	background-color: #303030;
+
+
+}
+
+.logo {
+	 width: 3rem;
+	height: 3rem;
+	text-indent: 9999px; 
+	background: transparent url("../img/logo.ico") no-repeat left;
+    background-size: contain; 
+}
+.fa-twitter 
+{
+	display: inline-block;
+	 width: 2rem;
+	height: 2rem;
+	text-indent: 9999px; 
+	background: transparent url("../img/twitter.ico") no-repeat left;
+	background-size: contain; 
+}
+.fa-linkedin{
+	display: inline-block;
+	 width: 2rem;
+	height: 2rem;
+	text-indent: 9999px; 
+	background: transparent url("../img/linkades.ico") no-repeat left;
+	background-size: contain; 
+}
+.fa-github{
+	display: inline-block;
+	 width: 2rem;
+	height: 2rem;
+	text-indent: 9999px; 
+	background: transparent url("../img/github1.ico") no-repeat left;
+	background-size: contain;
+}
+.fa-instagram{
+	display: inline-block;
+	 width: 2rem;
+	height: 2rem;
+	text-indent: 9999px; 
+	background: transparent url("../img/instagram.ico") no-repeat left;
+	background-size: contain;
+}
+.fa-educacion{
+	display: inline-block;
+	 width: 2rem;
+	height: 2rem;
+	text-indent: 9999px; 
+	background: transparent url("../img/educacion.ico") no-repeat left;
+	background-size: contain;
+}
+
+
+.menu { font-weight: 700; }
+
+.home { background: #303030  no-repeat center; }
+
+.home  h3 {
+	margin: 7vh auto 0;
+	font-size: 6.5vw;
+	font-weight: 600;
+	color: #d33c17;
+	letter-spacing: .8vw;
+}
+.home  h4 {
+	margin: 3vh auto 0;
+	font-size: 3.5vw;
+	font-weight: 100;
+	color: #d33c17;
+	letter-spacing: .5vw;
+}
+.lista-edu{
+	margin: 2vh auto 0;
+	font-size: 3.5vw;
+	font-weight: 100;
+	color: #d33c17;
+	letter-spacing: .5vw;
+	
+}
+.round40{
+	border-radius: 40%;
+}
+
+.perfil-img { max-width: 35%; }
+
+.logos ul { font-family: "batman"; }
+
+
+@media screen and (min-width: 30em) {   }
+
+@media screen and (min-width: 48em) { 
+	.perfil-img { max-width: 100%; }
+
+	.logos-video iframe {
+		max-width: 850px;
+		height: 480px;
+	}
+
+	.rslides {
+		max-width: 640px;
+		margin: auto;
+	}
+}
+
+@media screen and (min-width: 64em) { 
+	.perfil-img { max-width: 75%; }
+
+	.home  h3 { font-size: 5vw; }
+}
